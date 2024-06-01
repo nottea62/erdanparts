@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GrandisExtended-Black';
+    src: url(../fonts/GrandisExtended-Black.ttf);
+}
+
+@font-face {
+    font-family: 'GrandisExtended-Bold';
+    src: url(../fonts/GrandisExtended-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'GrandisExtended-Regular';
+    src: url(../fonts/GrandisExtended-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'GrandisExtended-Light';
+    src: url(../fonts/GrandisExtended-Light.ttf);
+}

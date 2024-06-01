@@ -1,0 +1,128 @@
+@media(max-width: 1300px) {
+    .header .header-text h1 {
+        font-size: 42px;
+        padding-top: 290px;
+        padding-bottom: 280px;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .header .header-text h1 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .header .header-text h1 {
+        font-size: 28px;
+    }
+
+    .services .services-substations {
+        grid-template-columns: 1fr;
+    }
+
+    .services .services-substations.reverce {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width: 890px){
+    .connect {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .connect .inputs {
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .connect .inputs label input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .connect .form-btn{
+        width: 100%;
+        height: 80px;
+        font-size: 23px;
+    }
+}
+@media(max-width: 810px) {
+    
+    .header nav .menu{
+        flex-direction: column;
+    }
+    .header nav .menu .logo{
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px) {
+    .header nav .menu {
+        flex-direction: column;
+    }
+
+    .header nav .menu .logo {
+        margin-bottom: 20px;
+    }
+
+    .header nav .menu .logo {
+        font-size: 33px;
+        margin-bottom: 5px;
+    }
+
+    .header nav .menu form .p1 {
+        margin-bottom: 5px;
+    }
+
+    .header nav .menu form p {
+        font-size: 15px
+    }
+}
+
+@media(max-width: 510px) {
+    .services .services-substations .left h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .services-substations__wrapper .hug h2 {
+        font-size: 25px;
+    }
+
+    .services .services-substations .left h3 {
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+    .services-substations__wrapper .hug h3 {
+        font-size: 16px;
+    }
+
+    .services-substations__wrapper .hug p {
+        font-size: 14px;
+    }
+
+    .services .services-substations .left p {
+        font-size: 14px
+    }
+
+    .header .header-text h1 {
+        font-size: 24px;
+    }
+    
+    .connect h5{
+        font-size: 14px;
+    }
+    .connect h2{
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 320px) {
+    .header .header-text h1 {
+        font-size: 22px;
+    }
+}
